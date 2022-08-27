@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A07E754B28B9B33B00AAFB7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E754A28B9B33B00AAFB7E /* AppDelegate.swift */; };
+		A07E754D28B9B33B00AAFB7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E754C28B9B33B00AAFB7E /* SceneDelegate.swift */; };
+		A07E754F28B9B33B00AAFB7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E754E28B9B33B00AAFB7E /* ViewController.swift */; };
+		A07E755228B9B33B00AAFB7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07E755028B9B33B00AAFB7E /* Main.storyboard */; };
+		A07E755428B9B33D00AAFB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07E755328B9B33D00AAFB7E /* Assets.xcassets */; };
+		A07E755728B9B33D00AAFB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07E755528B9B33D00AAFB7E /* LaunchScreen.storyboard */; };
+		A07E756728BA513700AAFB7E /* cannon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A07E756028BA513700AAFB7E /* cannon.mp3 */; };
+		A07E756828BA513700AAFB7E /* elise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A07E756128BA513700AAFB7E /* elise.mp3 */; };
+		A07E756928BA513700AAFB7E /* aria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A07E756228BA513700AAFB7E /* aria.mp3 */; };
+		A07E756A28BA513700AAFB7E /* Beethoven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A07E756428BA513700AAFB7E /* Beethoven.jpg */; };
+		A07E756B28BA513700AAFB7E /* Pachelbel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A07E756528BA513700AAFB7E /* Pachelbel.jpg */; };
+		A07E756C28BA513700AAFB7E /* Bach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A07E756628BA513700AAFB7E /* Bach.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A07E754728B9B33B00AAFB7E /* TechPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07E754A28B9B33B00AAFB7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A07E754C28B9B33B00AAFB7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A07E754E28B9B33B00AAFB7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A07E755128B9B33B00AAFB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A07E755328B9B33D00AAFB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A07E755628B9B33D00AAFB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A07E755828B9B33D00AAFB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07E756028BA513700AAFB7E /* cannon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cannon.mp3; sourceTree = "<group>"; };
+		A07E756128BA513700AAFB7E /* elise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elise.mp3; sourceTree = "<group>"; };
+		A07E756228BA513700AAFB7E /* aria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aria.mp3; sourceTree = "<group>"; };
+		A07E756428BA513700AAFB7E /* Beethoven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Beethoven.jpg; sourceTree = "<group>"; };
+		A07E756528BA513700AAFB7E /* Pachelbel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pachelbel.jpg; sourceTree = "<group>"; };
+		A07E756628BA513700AAFB7E /* Bach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bach.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A07E754428B9B33B00AAFB7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A07E753E28B9B33B00AAFB7E = {
+			isa = PBXGroup;
+			children = (
+				A07E754928B9B33B00AAFB7E /* TechPod */,
+				A07E754828B9B33B00AAFB7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A07E754828B9B33B00AAFB7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A07E754728B9B33B00AAFB7E /* TechPod.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A07E754928B9B33B00AAFB7E /* TechPod */ = {
+			isa = PBXGroup;
+			children = (
+				A07E755E28BA513700AAFB7E /* Resources */,
+				A07E754A28B9B33B00AAFB7E /* AppDelegate.swift */,
+				A07E754C28B9B33B00AAFB7E /* SceneDelegate.swift */,
+				A07E754E28B9B33B00AAFB7E /* ViewController.swift */,
+				A07E755028B9B33B00AAFB7E /* Main.storyboard */,
+				A07E755328B9B33D00AAFB7E /* Assets.xcassets */,
+				A07E755528B9B33D00AAFB7E /* LaunchScreen.storyboard */,
+				A07E755828B9B33D00AAFB7E /* Info.plist */,
+			);
+			path = TechPod;
+			sourceTree = "<group>";
+		};
+		A07E755E28BA513700AAFB7E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A07E755F28BA513700AAFB7E /* Songs */,
+				A07E756328BA513700AAFB7E /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A07E755F28BA513700AAFB7E /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				A07E756028BA513700AAFB7E /* cannon.mp3 */,
+				A07E756128BA513700AAFB7E /* elise.mp3 */,
+				A07E756228BA513700AAFB7E /* aria.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		A07E756328BA513700AAFB7E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A07E756428BA513700AAFB7E /* Beethoven.jpg */,
+				A07E756528BA513700AAFB7E /* Pachelbel.jpg */,
+				A07E756628BA513700AAFB7E /* Bach.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A07E754628B9B33B00AAFB7E /* TechPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A07E755B28B9B33D00AAFB7E /* Build configuration list for PBXNativeTarget "TechPod" */;
+			buildPhases = (
+				A07E754328B9B33B00AAFB7E /* Sources */,
+				A07E754428B9B33B00AAFB7E /* Frameworks */,
+				A07E754528B9B33B00AAFB7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechPod;
+			productName = TechPod;
+			productReference = A07E754728B9B33B00AAFB7E /* TechPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A07E753F28B9B33B00AAFB7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A07E754628B9B33B00AAFB7E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A07E754228B9B33B00AAFB7E /* Build configuration list for PBXProject "TechPod" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A07E753E28B9B33B00AAFB7E;
+			productRefGroup = A07E754828B9B33B00AAFB7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A07E754628B9B33B00AAFB7E /* TechPod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A07E754528B9B33B00AAFB7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07E755728B9B33D00AAFB7E /* LaunchScreen.storyboard in Resources */,
+				A07E756728BA513700AAFB7E /* cannon.mp3 in Resources */,
+				A07E756C28BA513700AAFB7E /* Bach.jpg in Resources */,
+				A07E756828BA513700AAFB7E /* elise.mp3 in Resources */,
+				A07E755428B9B33D00AAFB7E /* Assets.xcassets in Resources */,
+				A07E756B28BA513700AAFB7E /* Pachelbel.jpg in Resources */,
+				A07E755228B9B33B00AAFB7E /* Main.storyboard in Resources */,
+				A07E756928BA513700AAFB7E /* aria.mp3 in Resources */,
+				A07E756A28BA513700AAFB7E /* Beethoven.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A07E754328B9B33B00AAFB7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07E754F28B9B33B00AAFB7E /* ViewController.swift in Sources */,
+				A07E754B28B9B33B00AAFB7E /* AppDelegate.swift in Sources */,
+				A07E754D28B9B33B00AAFB7E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A07E755028B9B33B00AAFB7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A07E755128B9B33B00AAFB7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A07E755528B9B33D00AAFB7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A07E755628B9B33D00AAFB7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A07E755928B9B33D00AAFB7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A07E755A28B9B33D00AAFB7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A07E755C28B9B33D00AAFB7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TechPod/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.wakamiya.konken.TechPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A07E755D28B9B33D00AAFB7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TechPod/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.wakamiya.konken.TechPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A07E754228B9B33B00AAFB7E /* Build configuration list for PBXProject "TechPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07E755928B9B33D00AAFB7E /* Debug */,
+				A07E755A28B9B33D00AAFB7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A07E755B28B9B33D00AAFB7E /* Build configuration list for PBXNativeTarget "TechPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07E755C28B9B33D00AAFB7E /* Debug */,
+				A07E755D28B9B33D00AAFB7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A07E753F28B9B33B00AAFB7E /* Project object */;
+}
